@@ -1,0 +1,38 @@
+#im{
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+#txt{
+    float: right;
+    width: 70%;
+    height: 100%;
+    padding-top: 250px;
+    padding-left: 50px;
+}
+
+#cont{
+    position: absolute;
+    top: 240px;
+    right: 50px;
+}
+
+h1,p,h5{
+    color: black;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+#wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: #ecf3f9;
+}
