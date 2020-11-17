@@ -7,3 +7,7 @@
 hr {
     margin: 0rem 0rem 0rem 0rem;
 }
+
+.navbar-custom { 
+    background-color: black !important; 
+} 

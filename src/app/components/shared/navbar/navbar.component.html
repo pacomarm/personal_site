@@ -1,7 +1,7 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-md justify-content-center w-auto">
+<nav class="navbar navbar-dark bg-dark navbar-expand-md justify-content-center w-auto" *ngIf="navbarService.visible">
     <div class="navbar-collapse collapse w-100 text-center" id="collapsingNavbar3">
         <ul class="navbar-nav w-auto ml-auto justify-content-center">
-            <li class="nav-item active">
+            <li class="nav-item" routerLinkActive="active">
                 <a class="nav-link" routerLink="/home">Home</a>
             </li>
             <li class="nav-item" routerLinkActive="active">
